@@ -424,3 +424,27 @@ nav button span {
     margin: 10px;
 
 }
+
+.faq-img{
+    background-image: url(../img/faq.jpg);
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 350px;
+    width: 100%;
+    background-size: 100%;
+    
+    ~webkit-background-size:cover;
+    ~o-background-size:cover;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.faq-img p{
+    margin-left: 100px;
+    color: white;
+    font-size: 80px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
