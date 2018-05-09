@@ -439,11 +439,12 @@ nav button span {
     min-height: 350px;
     width: 100%;
     background-size: 100%;
-    
     ~webkit-background-size:cover;
     ~o-background-size:cover;
     background-size:cover;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .faq-img p{
