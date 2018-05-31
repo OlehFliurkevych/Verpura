@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 
 
+.verpura-color{
+    color:#9ACD32;
+}
+
 nav {
 /*    height: 50px;*/
     margin-top: 10px;
@@ -252,6 +256,7 @@ nav button span {
 
 
 .verpura-free .button-free {
+     background-color: #9ACD32;
     border: none;
     font-family: "Comfortaa";
     font-weight: 400;
@@ -262,12 +267,14 @@ nav button span {
     font-family: "Roboto";
     font-size: 32px;
     font-weight: bold;
+    text-align: center;color: black;margin-top: 30px;
 }
 
 .plan p{
     font-size: 18px;
     font-family: "Comfortaa";
     font-weight: 400px;
+    text-align: center;margin-top: 20px;
 }
 
 /*
@@ -493,6 +500,10 @@ nav button span {
 
 }
 
+.footer i{
+    font-size: 30px;color:#9ACD32;
+}
+
 .faq-img{
     background-image: url(../img/faq.jpg);
     background-attachment: relative;
@@ -550,6 +561,10 @@ nav button span {
     display: flex;
     justify-content:center;
     align-items:center;
+}
+
+.faq-search i{
+    margin-left: 20px; color:#9ACD32;font-size: 20px;
 }
 
 .panel-collapse-clickable {
